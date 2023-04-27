@@ -1,0 +1,31 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-board {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+.scoreboard {
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
